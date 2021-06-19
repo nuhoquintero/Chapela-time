@@ -1,6 +1,35 @@
 
 body {
+	font-family: airal, herlvetica;
+	padding: 0;
     background-color: #ffffff;
+}
+.menu{
+	list-style: none;
+	padding: none;
+	background: #F53838;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	border-radius: 50px;
+
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 26px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background: #000000;
+	transition: .5s ease;
+	border-radius: 50px;
+	cursor: pointer;
 }
 
 

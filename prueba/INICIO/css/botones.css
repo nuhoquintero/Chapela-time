@@ -1,0 +1,68 @@
+.fondo{
+	background: url("../img/6.jpg"), center;
+	padding: none;
+	background-size: 100%;
+	transition: none;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+
+.boton2{
+	background: url("../img/2.jpg"), center;
+	padding: 98px 198px;
+	border: none;
+	background-size: 100%;
+	transition: .5s ease;
+	position: relative;
+	left: 30px;
+	top: 100px;
+	border-radius: 50px;
+}
+.boton1{
+	background: url("../img/1.jpg"), center;
+	padding: 98px 198px;
+	border: none;
+	background-size: 100%;
+	transition: .5s ease;
+	position: relative;
+	left:30px;
+	top: 100px;
+	border-radius: 50px;
+}
+.boton2:focus{
+	outline: 0;
+	
+}
+.boton1:focus{
+	outline: 0;
+	
+}
+
+.boton1:hover{
+	padding: 98px 205px;
+	cursor: pointer;
+}
+.boton2:hover{
+	padding: 98px 205px;
+	cursor: pointer;
+}
+
+#AMD{
+	text-decoration: none;
+	text-align: center;
+	font-family: monospace;
+	color: #090303;
+	font-size: 2em;	
+
+
+}
+
+#INTEL{
+	text-decoration: none;
+	text-align: center;
+	font-family: monospace;
+	color: #090303;
+	font-size: 2em;
+}
