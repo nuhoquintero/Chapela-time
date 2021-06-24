@@ -1,11 +1,22 @@
 .fondo{
 	background: url("../img/6.jpg"), center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 	padding: none;
 	background-size: 100%;
 	transition: none;
 	position: relative;
 	left: 0;
 	top: 0;
+}
+
+.botones{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 95%;
+
 }
 
 
@@ -19,7 +30,8 @@
 	position: relative;
 	left: 30px;
 	top: 100px;
-	border-radius: 50px;
+	border-radius: 50px 50px 50px 50px;
+	z-index: 9;
 }
 .boton1{
 	background: url("../img/1.jpg"), center;
@@ -31,7 +43,8 @@
 	position: relative;
 	left:30px;
 	top: 100px;
-	border-radius: 50px;
+	border-radius: 50px 50px 50px 50px;
+	z-index: 9;
 }
 .boton2:focus{
 	outline: 0;
