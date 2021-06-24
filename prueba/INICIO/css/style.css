@@ -32,6 +32,23 @@ body {
 	cursor: pointer;
 }
 
+.tabla{
+	background-color: white;
+	padding: 16px 45px;
+	border: none;
+	background-size: 100%;
+	transition: .5s ease;
+	position: relative;
+	top: 80px;
+	right: -27%;
+	border-radius: 50px;
+}
+
+footer{
+	background-color: #828581;
+	width: 39%;
+}
+
 
 
 
