@@ -11,6 +11,7 @@
 
 .boton2{
 	background: url("../img/2.jpg"), center;
+	background-repeat:no-repeat;
 	padding: 98px 198px;
 	border: none;
 	background-size: 100%;
@@ -22,6 +23,7 @@
 }
 .boton1{
 	background: url("../img/1.jpg"), center;
+	background-repeat:no-repeat;
 	padding: 98px 198px;
 	border: none;
 	background-size: 100%;
