@@ -50,7 +50,15 @@ footer{
 }
 
 .urls a{
-	position: relative;
-	right: -34%;
+	align-items: center;
+	justify-content: center;
+	padding: 160px;
 	color: white;
+	font-size: 15px;
+}
+
+.procesadores {
+	align-items: center;
+	justify-content: center;
+	padding: 156px;
 }
